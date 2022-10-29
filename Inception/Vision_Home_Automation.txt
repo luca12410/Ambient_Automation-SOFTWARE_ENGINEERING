@@ -1,0 +1,113 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * */
+/*		ESAME DI INGEGNERIA DEL SOFTWARE		 */
+/*												 */
+/* 				Home Automation					 */
+/* 				Vision Document				     */ 
+/* Matteo Capricci, Matteo Colazilli, Luca Tocci */
+/* * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * *  INTRODUCTION   * * * * * * */
+
+[EN]
+The idea is to design software for the home automation management of a generic environment, 
+be it residential, corporate or commercial. Home automation consists of a set of intelligent 
+objects with different functions, which can be updated and integrated over time. In this system
+there is the possibility of creating different routines to automate activities, controlling 
+consumption and establishing consumption policies. Furthermore, you can both add a new smart
+object, integrating it through a new software module, and use third-party services, such as weather
+forecasting or surveillance services. There will be the presence of multiple types of users who 
+differ in privileges, and therefore in the ability to perform actions with the system.
+
+
+[IT]
+L'idea è di progettare software per la gestione domotica di un ambiente generico, che sia residenziale, 
+aziendale o commerciale. La domotica è costituita da un insieme di oggetti intelligenti con diverse 
+funzionalità, aggiornabili ed integrabili nel tempo. In questo sistema c'è la possibilità di creare 
+diverse routine per automatizzare le attività, controllando i consumi e stabilendo delle politiche di 
+consumo. Inoltre, si può sia aggiungere un nuovo oggetto smart, integrandolo tramite un nuovo modulo 
+software, e sia utilizzare servizi di terze parti, ad esempio servizi di previsioni meteo o di 
+sorveglianza. Ci sarà la presenza di più tipologie di utenti che differiscono per privilegi, e quindi 
+per la possibilità di compiere azioni con il sistema.
+
+/* * * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * * * * * * * */
+/* * * * * BUSINESS  OPPORTUNITY * * * * * */
+
+[EN]
+Our idea is to allow smart objects to interact with each other in order to achieve a common goal, 
+providing monitoring of the use of the latter and statistics on their consumption, giving advice for 
+minimizing costs. In addition, there will be a mechanism to support repeated purchases through devices
+(barcode readers present on the products) that can be placed in any environment (eg refrigerator, 
+laundry, pantry, warehouse, ...). Through this mechanism, all the products (divided by category) will be
+kept track, with the possibility of consulting this information remotely, and automatically makes the 
+purchase, when these are about to end, through a service external (eg Amazon, specific supplier). There 
+will be the possibility of establishing policies to repurchase a type of product based on a certain 
+criterion (eg price, speed of delivery, reviews, ...). There is the possibility for an administrator 
+user to establish basic privileges for each user and to provide more specific privileges to certain users.
+
+[IT]
+La nostra idea è quella di permettere agli smart object di interagire tra di loro con il fine di 
+raggiungere un obiettivo comune, fornendo il monitoraggio dell’utilizzo di questi ultimi e statistiche sui
+loro consumi, dando consigli per la minimizzazione dei costi. Inoltre sarà presente un meccanismo a 
+supporto degli acquisti ripetuti, tramite dei dispositivi ( lettori di codici a barre presenti sui 
+prodotti ) che possono essere posti in un qualsiasi ambiente (es. frigorifero, lavanderia, dispensa, 
+magazzino, … ). Tramite questo meccanismo si terrà traccia di tutti i prodotti presenti (divisi per 
+categoria ), con la possibilità di consultare tale informazione da remoto, ed in maniera automatica effettua 
+l’acquisto, quando questi stanno per terminare, attraverso un servizio esterno (es. Amazon, fornitore 
+specifico). Ci sarà la possibilità di stabilire delle politiche per ricomprare una tipologia di prodotto 
+in base ad un determinato criterio (es.  prezzo, rapidità nella consegna, recensioni, …) . Esiste la 
+possibilità di stabilire, da parte di un utente amministratore, dei privilegi di base per ogni utente e 
+fornirne di più specifici a determinati utenti.
+
+/* * * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * PROBLEM STATEMENT * * * * * * */
+
+[EN]
+Traditional home automation systems allow user interaction with monolithic intelligent objects, as they 
+perform individual actions unrelated to the rest of the smart objects. These do not allow the monitoring 
+of the uses and consumption statistics of the same. Furthermore, there are no mechanisms that monitor the 
+products in the home and allow their automated purchase when they are about to end, following the policies
+ established by the user. There are no user hierarchy mechanisms, so as to be able to establish roles 
+ within the environment, and therefore very specific privileges.
+
+[IT]
+I sistemi di domotica tradizionale permettono l’interazione dell’utente con oggetti intelligenti 
+monolitici, in quanto eseguono singole azioni slegate dal resto degli smart objects. Questi non permettono 
+il monitoraggio degli utilizzi e delle statistiche di consumo degli stessi.  
+Inoltre non esistono meccanismi che monitorano i  prodotti presenti in casa e ne permettono l’acquisto 
+automatizzato quando questi stanno per terminare, seguendo delle politiche stabilite dall’utente. Non sono
+presenti meccanismi di gerarchia degli utenti, così da poter stabilire ruoli all’interno dell’ambiente, e
+quindi privilegi ben specifici.
+
+/* * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * USER-LEVEL  GOALS * * * * * * */
+
+[EN]
+Users need a system to achieve these goals:
+* Administrator User: program routines, set consumption plans, have consumption statistics, set products 
+to be purchased when they run out or based on policies, monitor products present, interact with intelligent
+objects, assign / manage / limit the privileges of each type of user, allow / limit access to certain
+rooms to specific users, add new smart objects.
+* User with privileges: can do advanced operations granted by the administrator.
+* User without privileges: use smart objects in line with the policies decided by the administrator, 
+having basic privileges.
+
+[IT]
+Gli utenti hanno bisogno di un sistema per raggiungere questi obiettivi:
+* Utente Amministratore:  programmare delle routine, impostare dei piani di consumo, avere statistiche 
+sui consumi, impostare prodotti da acquistare quando terminano e in base a politiche che può egli stesso 
+stabilire, monitorare i prodotti presenti, interagire con gli oggetti intelligenti, assegnare/gestire/limitare 
+i privilegi di ogni tipologia di utente, consentire/limitare l’accesso a determinati locali a specifici utenti, 
+aggiungere nuovi oggetti intelligenti.
+* Utente con  privilegi: può fare delle operazioni avanzate concesse dall'amministratore.
+* Utente senza privilegi: utilizzare oggetti smart in linea con le policy decise dall’amministratore, avendo dei 
+privilegi di base.
+
+/* * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * PRODUCT PERSPECTIVE * * * * * */
+
+// COMPLETARE SEZIONE //
