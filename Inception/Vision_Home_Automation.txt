@@ -1,8 +1,8 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * */
-/*		ESAME DI INGEGNERIA DEL SOFTWARE		 */
-/*												 */
-/* 				Home Automation					 */
-/* 				Vision Document				     */ 
+/*		     ESAME DI INGEGNERIA DEL SOFTWARE 		     */
+/*			                                  									 */
+/* 				           Home Automation          					 */
+/* 				           Vision Document				            */ 
 /* Matteo Capricci, Matteo Colazilli, Luca Tocci */
 /* * * * * * * * * * * * * * * * * * * * * * * * */
 
