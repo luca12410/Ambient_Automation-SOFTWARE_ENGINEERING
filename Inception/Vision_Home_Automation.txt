@@ -1,5 +1,5 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * */
-/*	* * * ESAME DI INGEGNERIA DEL SOFTWARE * * *  */
+/********ESAME DI INGEGNERIA DEL SOFTWARE*********/
 /*	* * * * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * *Home Automation* * * * * * * * */
 /* * * * * * * * *Vision Document*	* * * * * * * */ 
