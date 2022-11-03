@@ -110,4 +110,40 @@ privilegi di base.
 /* * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * PRODUCT PERSPECTIVE * * * * * */
 
-// COMPLETARE SEZIONE //
+[EN]
+Traditional home automation systems allow user interaction with monolithic intelligent objects, as they perform 
+individual actions unrelated to the rest of the smart objects. These do not allow the monitoring of the uses and consumption 
+statistics of the same, not providing any tools for planning and monitoring regarding the real consumption of the environment, 
+from an energy point of view. Furthermore, there are no mechanisms that monitor the products in the home and allow their 
+automated purchase when they are about to end, following the policies established by the user. There are no user hierarchy 
+mechanisms, so as to be able to establish roles within the environment, and therefore very specific privileges.
+
+[IT]
+I sistemi di domotica tradizionale permettono l’interazione dell’utente con oggetti intelligenti monolitici, in quanto eseguono
+singole azioni slegate dal resto degli smart objects. Questi non permettono il monitoraggio degli utilizzi e delle statistiche 
+di consumo degli stessi, non fornendo nessuno strumento per la pianificazione ed il monitoraggio riguardante i consumi reali 
+dell’ambiente, sotto il punto di vista energetico.  Inoltre non esistono meccanismi che monitorano i  prodotti presenti nell’ambiente 
+e ne permettono l’acquisto automatizzato quando questi stanno per terminare, seguendo delle politiche stabilite dall’utente. 
+Non sono presenti meccanismi di gerarchia degli utenti, così da poter stabilire ruoli all’interno dell’ambiente, 
+e quindi privilegi ben specifici.
+
+/* * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * USER-LEVEL  GOALS * * * * * * */
+
+[EN]
+Users need a system to achieve these goals:
+
+* Administrator User: program routines, set consumption plans, have consumption statistics, set products to be purchased when they 
+run out or based on policies, monitor products present, interact with intelligent objects, assign / manage / limit the privileges 
+of each type of user, allow / limit access to certain rooms to specific users, add new smart objects.
+* User with privileges: can do advanced operations granted by the administrator.
+* User without privileges: use smart objects in line with the policies decided by the administrator, having basic privileges.
+
+[IT]
+Gli utenti hanno bisogno di un sistema per raggiungere questi obiettivi:
+* Utente Amministratore:  programmare delle routine, impostare dei piani di consumo, avere statistiche sui consumi, impostare prodotti
+da acquistare quando terminano e in base a politiche che può egli stesso stabilire, monitorare i prodotti presenti, interagire con gli 
+oggetti intelligenti, assegnare/gestire/limitare i privilegi di ogni tipologia di utente, consentire/limitare l’accesso a determinati 
+locali a specifici utenti, aggiungere nuovi oggetti intelligenti.
+* Utente con  privilegi: può fare delle operazioni avanzate concesse dall'amministratore.
+* Utente senza privilegi: utilizzare oggetti smart in linea con le policy decise dall’amministratore, avendo dei privilegi di base.
