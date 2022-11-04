@@ -1,5 +1,4 @@
-/************** [UC2] ***************/
-/**** Creazione  nuovo  ambiente ****/
+/* [UC2] Creazione  nuovo  ambiente */
 
 /*** BRIEF DESCRIPTION / IT / FULL DESCRIPTION FOLLOWS ***/
 
@@ -25,8 +24,8 @@ un’applicazione mobile.
 
 * PORTATA			: Sistema di gestione della domotica
 * LIVELLO			: Obiettivo utente
-* ATTORE PRIMARIO	: Utente Amministratore
-* RIPETIZIONE		: Una tantum.
+* ATTORE PRIMARIO		: Utente Amministratore
+* RIPETIZIONE			: Una tantum.
 
 
 /**** STAKEHOLDER E INTERESSI ****/
