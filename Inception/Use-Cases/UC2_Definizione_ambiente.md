@@ -14,7 +14,7 @@ loro portali, così da ricavare autonomamente tale informazione. Il sistema salv
 e permette di collegare un dispositivo principale  per il controllo remoto dell'ambiente tramite 
 un’applicazione mobile.
 
-/* ********************************** */
+/* ********************************** */ 
 /********* FULL DESCRIPTION *********/
 /* ********************************** */
 
@@ -75,10 +75,10 @@ l’identificativo dell’oggetto e, opzionalmente, fornendo un nome personalizz
 /*** ESTENSIONI ***/
 
 * Estensione globale A: In qualsiasi momento l’utente può tornare indietro nella fase di configurazione
-	a.1. Il sistema elimina le scelte fatte nell’ultimo passo e ripropone la situazione relativa al passo precedente.
+	** a.1. Il sistema elimina le scelte fatte nell’ultimo passo e ripropone la situazione relativa al passo precedente.
 	
 * Estensione globale B: In qualsiasi momento l’utente può scegliere di annullare la procedura di configurazione del nuovo ambiente.
-	b.1. Il sistema elimina tutti i dati memorizzati fino a quel momento e mostra la schermata di Home.
+	** b.1. Il sistema elimina tutti i dati memorizzati fino a quel momento e mostra la schermata di Home.
 
 * Passo 2, estensione A: le credenziali non vengono riconosciute come valide.
 	2a.1. Il sistema propone di nuovo la schermata di accesso.
