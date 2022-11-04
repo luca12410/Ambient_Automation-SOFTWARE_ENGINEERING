@@ -78,51 +78,51 @@ l’identificativo dell’oggetto e, opzionalmente, fornendo un nome personalizz
   * a.1. Il sistema elimina le scelte fatte nell’ultimo passo e ripropone la situazione relativa al passo precedente.
 	
 * Estensione globale B: In qualsiasi momento l’utente può scegliere di annullare la procedura di configurazione del nuovo ambiente.
-	** b.1. Il sistema elimina tutti i dati memorizzati fino a quel momento e mostra la schermata di Home.
+  * b.1. Il sistema elimina tutti i dati memorizzati fino a quel momento e mostra la schermata di Home.
 
 * Passo 2, estensione A: le credenziali non vengono riconosciute come valide.
-	2a.1. Il sistema propone di nuovo la schermata di accesso.
-	2a.2. Ritorna al passo 1.
+  * 2a.1. Il sistema propone di nuovo la schermata di accesso.
+  * 2a.2. Ritorna al passo 1.
 
 * Passo 5, estensione A: il sistema rileva che il nome scelto per quell’ambiente è un nome già utilizzato 
 per un altro ambiente dello stesso utente.
-	5a.1. Il sistema chiede di inserire di nuovo un nome per il nuovo ambiente, segnalando il problema.
-	5a.2. Ritorna al passo 4.
+  * 5a.1. Il sistema chiede di inserire di nuovo un nome per il nuovo ambiente, segnalando il problema.
+  * 5a.2. Ritorna al passo 4.
 	
 * Passo 8, estensione A: il sistema rileva che l’identificativo fornito dall’utente non è valido.
-	8a.1. Il sistema chiede di inserire di nuovo l’identificativo, segnalando il problema.
+   * 8a.1. Il sistema chiede di inserire di nuovo l’identificativo, segnalando il problema.
 
 * Passo 8, estensione B:  Il sistema rileva che il nome scelto per quell’oggetto è un nome già utilizzato per 
 un altro oggetto dello stesso ambiente.
-	8b.1. Il sistema chiede di inserire di nuovo un nome per il nuovo oggetto, segnalando il problema.
+   * 8b.1. Il sistema chiede di inserire di nuovo un nome per il nuovo oggetto, segnalando il problema.
 	
 * Passo 12, estensione A:  L’utente non desidera inserire le credenziali relative alla piattaforma del provider di riferimento.
-	12a.1. Il sistema fornisce una schermata nella quale indicare tutte le informazioni richieste.
-	12a.2. L’utente inserisce tutte le informazioni necessarie e conferma l’inserimento.
-	12a.3. Il sistema salva la configurazione del contratto con quella determinata utility.
+   * 12a.1. Il sistema fornisce una schermata nella quale indicare tutte le informazioni richieste.
+   * 12a.2. L’utente inserisce tutte le informazioni necessarie e conferma l’inserimento.
+   * 12a.3. Il sistema salva la configurazione del contratto con quella determinata utility.
 
 * Passo 13, estensione A: Il sistema rileva che le credenziali di accesso non sono valide.
-	13a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-	13a.2. L’utente inserisce le credenziali.
-	13a.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+   * 13a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
+   * 13a.2. L’utente inserisce le credenziali.
+   * 13a.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
 
 * Passo 13, estensione B: Il sistema rileva un fallimento della comunicazione con la piattaforma del provider.
-	13b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-	13b.2. L’utente inserisce le credenziali.
-	13b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+   * 13b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
+   * 13b.2. L’utente inserisce le credenziali.
+   * 13b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
 
 * Passo 17, estensione A: Il sistema rileva che le credenziali di accesso non sono valide.
-	17a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-	17a.2. L’utente inserisce le credenziali.
-	17a.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+   * 17a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
+   * 17a.2. L’utente inserisce le credenziali.
+   * 17a.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
 
 * Passo 17, estensione B: Il sistema rileva un fallimento nella comunicazione con la piattaforma del provider.
-	17b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-	17b.2. L’utente inserisce le credenziali.
-	17b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+   * 17b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
+   * 17b.2. L’utente inserisce le credenziali.
+   * 17b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
 
 * Passo 20, estensione A:  Il sistema rileva problematiche in fase di associazione con il dispositivo.
-	20a.1. Il sistema ripropone la schermata per l’associazione con un dispositivo di controllo remoto.
+   * 20a.1. Il sistema ripropone la schermata per l’associazione con un dispositivo di controllo remoto.
 	
 	
 /*** REQUISITI SPECIALI ***/
