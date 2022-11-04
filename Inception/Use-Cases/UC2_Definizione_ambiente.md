@@ -14,9 +14,9 @@ loro portali, così da ricavare autonomamente tale informazione. Il sistema salv
 e permette di collegare un dispositivo principale  per il controllo remoto dell'ambiente tramite 
 un’applicazione mobile.
 
-/************************************/
+/* ********************************** */
 /********* FULL DESCRIPTION *********/
-/************************************/
+/* ********************************** */
 
 * ID				: [UC2]
 * LAN				: IT
