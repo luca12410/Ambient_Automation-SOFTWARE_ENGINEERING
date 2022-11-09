@@ -1,5 +1,5 @@
 
-/* [UC1]  Registrazione nuovo utente */
+# [UC1]  Registrazione nuovo utente
 
 /*** BRIEF DESCRIPTION / IT / NO FULL DESCRIPTION AVAILABLE ***/
 
