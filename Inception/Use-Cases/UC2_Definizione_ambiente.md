@@ -1,4 +1,4 @@
-# /* [UC2] Creazione  nuovo  ambiente */
+# [UC2] Creazione  nuovo  ambiente
 
 /*** BRIEF DESCRIPTION / IT / FULL DESCRIPTION FOLLOWS ***/
 
