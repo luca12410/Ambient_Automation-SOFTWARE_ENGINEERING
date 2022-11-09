@@ -128,11 +128,10 @@ un altro oggetto dello stesso ambiente.
 * r1. Interfaccia utente di tipo touch screen su un tablet in postazione fissa. Il testo deve essere visibile 
 da una distanza massima di un metro.
 
-* r2. Connessione ad internet costante e consistente.
-
+* r2. Per le operazioni che lo richiedono, connessione ad Internet.
 * r3. Internazionalizzazione della lingua sul testo visualizzato.
 
-* r4. Regole di business inseribili nei passi da 10 a 13.
+* r4. Regole di business inseribili nei passi da 8 a 11.
 
 /*** VARIANTI TECNOLOGICHE / MISCELLANEA ***/
 
