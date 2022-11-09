@@ -66,11 +66,9 @@ l’identificativo dell’oggetto e, opzionalmente, fornendo un nome personalizz
 14. L’utente seleziona qual è il suo servizio di riferimento.
 15. L’utente inserisce le credenziali per accedere alla piattaforma del servizio selezionato.
 16. Il sistema salva le credenziali per gli accessi futuri e vi accede per recuperare le informazioni.
-17. Il sistema fornisce una schermata per l’associazione di tipologie di dispositivi mobile compatibili.
-18. L'utente seleziona il dispositivo che vuole aggiungere.
-* CICLO: Vengono ripetuti i passi 15, 16, 17, 18 per ogni servizio di terze parti.
-19. Il sistema salva la scelta e fornisce a quel dispositivo l’accesso al controllo dell’ambiente.
-20. Il sistema mostra la schermata di Home.
+* CICLO: Vengono ripetuti i passi 15 e 16 per ogni servizio di terze parti.
+17. Il sistema salva la scelta e fornisce a quel dispositivo l’accesso al controllo dell’ambiente.
+18. Il sistema mostra la schermata di Home.
 
 /*** ESTENSIONI ***/
 
