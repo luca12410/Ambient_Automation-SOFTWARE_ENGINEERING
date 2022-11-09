@@ -56,7 +56,7 @@ L’utente potrà allora proseguire nell’utilizzo del sistema.
 6.  L’utente seleziona dalla lista un oggetto smart che vuole inserire all’interno del nuovo ambiente, specificando il tipo, 
 l’identificativo dell’oggetto e, opzionalmente, fornendo un nome personalizzato.
 7.  Il sistema salva la configurazione degli oggetti presenti nell’ambiente.
-8.  L’utente ripete i passi 6  e 7, il sistema esegue 8,  fino a che non indica che ha terminato. /SEE ISSUE RELATED
+8.  L’utente ripete i passi 6  e 7, il sistema esegue 8,  fino a che non indica che ha terminato. /SEE RELATED ISSUE
 9.  Il sistema fornisce una lista di possibili providers per una specifica utility.
 10. L’utente seleziona qual è il suo provider di riferimento.
 11. L’utente inserisce le credenziali per accedere alla piattaforma del provider selezionato.
@@ -68,7 +68,7 @@ l’identificativo dell’oggetto e, opzionalmente, fornendo un nome personalizz
 16. Il sistema salva le credenziali per gli accessi futuri e vi accede per recuperare le informazioni.
 17. Il sistema fornisce una schermata per l’associazione di tipologie di dispositivi mobile compatibili.
 18. L'utente seleziona il dispositivo che vuole aggiungere.
-* CICLO: Vengono ripetuti i passi 15, 16, 17, 18 per ogni servizio di terze parti. /SEE ISSUE
+* CICLO: Vengono ripetuti i passi 15, 16, 17, 18 per ogni servizio di terze parti.
 19. Il sistema salva la scelta e fornisce a quel dispositivo l’accesso al controllo dell’ambiente.
 20. Il sistema mostra la schermata di Home.
 
@@ -130,7 +130,7 @@ un altro oggetto dello stesso ambiente.
 * r1. Interfaccia utente di tipo touch screen su un tablet in postazione fissa. Il testo deve essere visibile 
 da una distanza massima di un metro.
 
-* r2. Connessione ad internet costante e consistente. /SEE ISSUE
+* r2. Connessione ad internet costante e consistente.
 
 * r3. Internazionalizzazione della lingua sul testo visualizzato.
 
