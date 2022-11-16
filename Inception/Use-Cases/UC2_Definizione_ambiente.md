@@ -59,8 +59,8 @@ l’identificativo dell’oggetto e, opzionalmente, fornendo un nome personalizz
 * CICLO: l'utente ripete il passo 6 e il sistema ripete il passo 7, fino a esaurimento delle operazioni.
 8.  Il sistema fornisce una lista di possibili providers per una specifica utility.
 9. L’utente seleziona qual è il suo provider di riferimento.
-10. L’utente inserisce le credenziali per accedere alla piattaforma del provider selezionato.
-11. Il sistema salva le credenziali per gli accessi futuri e vi accede per recuperare le informazioni sul contratto.
+10. L’utente inserisce l' ID del contratto stipulato col provider selezionato.
+11. Il sistema salva l'ID e vi accede per recuperare le informazioni sul contratto.
 * CICLO: Vengono ripetuti i passi 8, 9, 10, 11 per ogni utility.
 12. Il sistema fornisce una lista di possibili servizi di terze parti da poter utilizzare.
 13. L’utente seleziona qual è il suo servizio di riferimento.
@@ -98,15 +98,15 @@ un altro oggetto dello stesso ambiente.
    * 9a.2. L’utente inserisce tutte le informazioni necessarie e conferma l’inserimento.
    * 9a.3. Il sistema salva la configurazione del contratto con quella determinata utility.
 
-* Passo 10, estensione A: Il sistema rileva che le credenziali di accesso non sono valide.
-   * 10a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-   * 10a.2. L’utente inserisce le credenziali.
-   * 10a.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+* Passo 10, estensione A: Il sistema rileva che l'ID di accesso non è valido.
+   * 10a.1. Il sistema propone all’utente una schermata dove inserire di nuovo l'ID, segnalando il problema.
+   * 10a.2. L’utente inserisce l'ID.
+   * 10a.3. Il sistema verifica che l'ID sia valido ed accede al servizio.
 
 * Passo 10, estensione B: Il sistema rileva un fallimento della comunicazione con la piattaforma del provider.
-   * 10b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-   * 10b.2. L’utente inserisce le credenziali.
-   * 10b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+   * 10b.1. Il sistema propone all’utente una schermata dove inserire di nuovo l'ID, segnalando il problema.
+   * 10b.2. L’utente inserisce l'ID.
+   * 10b.3. Il sistema verifica che l'ID sia valido ed accede al servizio.
 
 * Passo 14, estensione A: Il sistema rileva che le credenziali di accesso non sono valide.
    * 14a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
