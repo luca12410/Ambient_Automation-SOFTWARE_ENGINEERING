@@ -48,27 +48,26 @@ L’utente potrà allora proseguire nell’utilizzo del sistema.
 
 /**** SCENARIO PRINCIPALE DI SUCCESSO ****/
 
-1.  Il sistema verifica che le credenziali siano valide.
-2.  Il sistema registra l’utente come utente Amministratore di quel nuovo ambiente.
-3.  Il sistema chiede di inserire un nome per il nuovo ambiente.
-4.  L’utente inserisce il nome che ha scelto per quell’ambiente.
-5.  Il sistema fornisce una lista di oggetti smart con i quali è compatibile.
-6.  L’utente seleziona dalla lista un oggetto smart che vuole inserire all’interno del nuovo ambiente, specificando il tipo, 
+1.  Il sistema registra l’utente come utente Amministratore di quel nuovo ambiente.
+2.  Il sistema chiede di inserire un nome per il nuovo ambiente.
+3.  L’utente inserisce il nome che ha scelto per quell’ambiente.
+4.  Il sistema fornisce una lista di oggetti smart con i quali è compatibile.
+5.  L’utente seleziona dalla lista un oggetto smart che vuole inserire all’interno del nuovo ambiente, specificando il tipo, 
 l’identificativo dell’oggetto e, opzionalmente, fornendo un nome personalizzato.
-7.  Il sistema salva la configurazione degli oggetti presenti nell’ambiente.
-* CICLO: l'utente ripete il passo 6 e il sistema ripete il passo 7, fino a esaurimento delle operazioni.
-8.  Il sistema fornisce una lista di possibili providers per una specifica utility.
-9. L’utente seleziona qual è il suo provider di riferimento.
-10. L’utente inserisce le credenziali per accedere alla piattaforma del provider selezionato.
-11. Il sistema salva le credenziali per gli accessi futuri e vi accede per recuperare le informazioni sul contratto.
-* CICLO: Vengono ripetuti i passi 8, 9, 10, 11 per ogni utility.
-12. Il sistema fornisce una lista di possibili servizi di terze parti da poter utilizzare.
-13. L’utente seleziona qual è il suo servizio di riferimento.
-14. L’utente inserisce le credenziali per accedere alla piattaforma del servizio selezionato.
-15. Il sistema salva le credenziali per gli accessi futuri e vi accede per recuperare le informazioni.
-* CICLO: Vengono ripetuti i passi 14 e 15 per ogni servizio di terze parti.
-16. Il sistema salva la scelta e fornisce a quel dispositivo l’accesso al controllo dell’ambiente.
-17. Il sistema mostra la schermata di Home.
+6.  Il sistema salva la configurazione degli oggetti presenti nell’ambiente.
+* CICLO: l'utente ripete il passo 6 e il sistema ripete il passo 6, fino a esaurimento delle operazioni.
+7.  Il sistema fornisce una lista di possibili providers per una specifica utility.
+8. L’utente seleziona qual è il suo provider di riferimento.
+9. L’utente inserisce le credenziali per accedere alla piattaforma del provider selezionato.
+10. Il sistema salva le credenziali per gli accessi futuri e vi accede per recuperare le informazioni sul contratto.
+* CICLO: Vengono ripetuti i passi 7, 8, 9, 10 per ogni utility.
+11. Il sistema fornisce una lista di possibili servizi di terze parti da poter utilizzare.
+12. L’utente seleziona qual è il suo servizio di riferimento.
+13. L’utente inserisce le credenziali per accedere alla piattaforma del servizio selezionato.
+14. Il sistema salva le credenziali per gli accessi futuri e vi accede per recuperare le informazioni.
+* CICLO: Vengono ripetuti i passi 13 e 14 per ogni servizio di terze parti.
+15. Il sistema salva la scelta e fornisce a quel dispositivo l’accesso al controllo dell’ambiente.
+16. Il sistema mostra la schermata di Home.
 
 /*** ESTENSIONI ***/
 
@@ -78,49 +77,45 @@ l’identificativo dell’oggetto e, opzionalmente, fornendo un nome personalizz
 * Estensione globale B: In qualsiasi momento l’utente può scegliere di annullare la procedura di configurazione del nuovo ambiente.
   * b.1. Il sistema elimina tutti i dati memorizzati fino a quel momento e mostra la schermata di Home.
 
-* Passo 2, estensione A: le credenziali non vengono riconosciute come valide.
-  * 2a.1. Il sistema propone di nuovo la schermata di accesso.
-  * 2a.2. Ritorna al passo 1.
-
-* Passo 5, estensione A: il sistema rileva che il nome scelto per quell’ambiente è un nome già utilizzato 
+* Passo 4, estensione A: il sistema rileva che il nome scelto per quell’ambiente è un nome già utilizzato 
 per un altro ambiente dello stesso utente.
-  * 5a.1. Il sistema chiede di inserire di nuovo un nome per il nuovo ambiente, segnalando il problema.
-  * 5a.2. Ritorna al passo 4.
+  * 4a.1. Il sistema chiede di inserire di nuovo un nome per il nuovo ambiente, segnalando il problema.
+  * 4a.2. Ritorna al passo 3.
 	
-* Passo 6, estensione A: il sistema rileva che l’identificativo fornito dall’utente non è valido.
-   * 6a.1. Il sistema chiede di inserire di nuovo l’identificativo, segnalando il problema.
+* Passo 5, estensione A: il sistema rileva che l’identificativo fornito dall’utente non è valido.
+   * 5a.1. Il sistema chiede di inserire di nuovo l’identificativo, segnalando il problema.
 
-* Passo 6, estensione B:  Il sistema rileva che il nome scelto per quell’oggetto è un nome già utilizzato per 
+* Passo 5, estensione B:  Il sistema rileva che il nome scelto per quell’oggetto è un nome già utilizzato per 
 un altro oggetto dello stesso ambiente.
-   * 6b.1. Il sistema chiede di inserire di nuovo un nome per il nuovo oggetto, segnalando il problema.
+   * 5b.1. Il sistema chiede di inserire di nuovo un nome per il nuovo oggetto, segnalando il problema.
 
-* Passo 9, estensione A:  L’utente non desidera inserire le credenziali relative alla piattaforma del provider di riferimento.
-   * 9a.1. Il sistema fornisce una schermata nella quale indicare tutte le informazioni richieste.
-   * 9a.2. L’utente inserisce tutte le informazioni necessarie e conferma l’inserimento.
-   * 9a.3. Il sistema salva la configurazione del contratto con quella determinata utility.
+* Passo 8, estensione A:  L’utente non desidera inserire le credenziali relative alla piattaforma del provider di riferimento.
+   * 8a.1. Il sistema fornisce una schermata nella quale indicare tutte le informazioni richieste.
+   * 8a.2. L’utente inserisce tutte le informazioni necessarie e conferma l’inserimento.
+   * 8a.3. Il sistema salva la configurazione del contratto con quella determinata utility.
 
-* Passo 10, estensione A: Il sistema rileva che le credenziali di accesso non sono valide.
-   * 10a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-   * 10a.2. L’utente inserisce le credenziali.
-   * 10a.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+* Passo 9, estensione A: Il sistema rileva che le credenziali di accesso non sono valide.
+   * 9a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
+   * 9a.2. L’utente inserisce le credenziali.
+   * 9a.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
 
-* Passo 10, estensione B: Il sistema rileva un fallimento della comunicazione con la piattaforma del provider.
-   * 10b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-   * 10b.2. L’utente inserisce le credenziali.
-   * 10b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+* Passo 9, estensione B: Il sistema rileva un fallimento della comunicazione con la piattaforma del provider.
+   * 9b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
+   * 9b.2. L’utente inserisce le credenziali.
+   * 9b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
 
-* Passo 14, estensione A: Il sistema rileva che le credenziali di accesso non sono valide.
-   * 14a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-   * 14a.2. L’utente inserisce le credenziali.
-   * 14a.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+* Passo 13, estensione A: Il sistema rileva che le credenziali di accesso non sono valide.
+   * 13a.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
+   * 13a.2. L’utente inserisce le credenziali.
+   * 13a.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
 
-* Passo 14, estensione B: Il sistema rileva un fallimento nella comunicazione con la piattaforma del provider.
-   * 14b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
-   * 14b.2. L’utente inserisce le credenziali.
-   * 14b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
+* Passo 13, estensione B: Il sistema rileva un fallimento nella comunicazione con la piattaforma del provider.
+   * 13b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
+   * 13b.2. L’utente inserisce le credenziali.
+   * 13b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
 
-* Passo 16, estensione A:  Il sistema rileva problematiche in fase di associazione con il dispositivo.
-   * 16a.1. Il sistema ripropone la schermata per l’associazione con un dispositivo di controllo remoto.
+* Passo 15, estensione A:  Il sistema rileva problematiche in fase di associazione con il dispositivo.
+   * 15a.1. Il sistema ripropone la schermata per l’associazione con un dispositivo di controllo remoto.
 	
 	
 /*** REQUISITI SPECIALI ***/
@@ -129,9 +124,10 @@ un altro oggetto dello stesso ambiente.
 da una distanza massima di un metro.
 
 * r2. Per le operazioni che lo richiedono, connessione ad Internet.
+
 * r3. Internazionalizzazione della lingua sul testo visualizzato.
 
-* r4. Regole di business inseribili nei passi da 8 a 11.
+* r4. Regole di business inseribili nei passi da 7 a 10.
 
 /*** VARIANTI TECNOLOGICHE / MISCELLANEA ***/
 
