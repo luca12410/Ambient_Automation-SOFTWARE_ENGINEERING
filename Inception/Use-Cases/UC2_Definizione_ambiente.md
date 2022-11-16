@@ -67,8 +67,7 @@ l’identificativo dell’oggetto e, opzionalmente, fornendo un nome personalizz
 14. L’utente inserisce le credenziali per accedere alla piattaforma del servizio selezionato.
 15. Il sistema salva le credenziali per gli accessi futuri e vi accede per recuperare le informazioni.
 * CICLO: Vengono ripetuti i passi 14 e 15 per ogni servizio di terze parti.
-16. Il sistema salva la scelta e fornisce a quel dispositivo l’accesso al controllo dell’ambiente.
-17. Il sistema mostra la schermata di Home.
+16. Il sistema mostra la schermata di Home.
 
 /*** ESTENSIONI ***/
 
@@ -118,9 +117,6 @@ un altro oggetto dello stesso ambiente.
    * 14b.1. Il sistema propone all’utente una schermata dove inserire di nuovo le credenziali, segnalando il problema.
    * 14b.2. L’utente inserisce le credenziali.
    * 14b.3. Il sistema verifica che le credenziali siano valide ed accede al servizio.
-
-* Passo 16, estensione A:  Il sistema rileva problematiche in fase di associazione con il dispositivo.
-   * 16a.1. Il sistema ripropone la schermata per l’associazione con un dispositivo di controllo remoto.
 	
 	
 /*** REQUISITI SPECIALI ***/
